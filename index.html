@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/JavaScript">
+	function checkSize()
+{
+    im = new Image();
+    im.src = document.Upload.submitfile.value;
+
+    im.src = document.getElementById('submitfile').value;
+    alert(im.src);
+
+}
+
+	
+</script>
+<body>
+</script>
+   <form name="Upload" action="#" enctype="multipart/form-data" method="post">
+   <p>Filename: <INPUT type="file" name="submitfile" id = "submitfile" />
+   <INPUT type="button" value="Send" onClick="checkSize();" />
+   </form>
+
+<script type="text/JavaScript">
+
+	
+	
+		
+	
+</script>
+
+
+</body>
+</head>
+</html>
